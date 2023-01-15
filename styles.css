@@ -1,10 +1,10 @@
 .container {
  display: grid;
- /* grid-template-areas:
+ grid-template-areas:
   "c1 c2 aside"
-  "c3 c4"; */
- /* grid-template-columns: 1fr, 1fr, 0.5fr;
- grid-template-rows: 1fr, 1fr; */
+  "c3 c4 aside";
+ grid-template-columns: 2fr, 2fr, 1fr;
+ grid-template-rows: 1fr, 1fr;
  gap: 10px;
  border: solid 1px black;
 }
